@@ -12,13 +12,17 @@ That is a auto-regressive model, which mixes ideas from the two papers [Pixel Re
 
 I have used 60,000 quantized 28x28 images from the colored MNIST dataset. Here's a few samples from the training set:
 
-![TrainingSet](https://i.imgur.com/A4gI8LS.png)
+![TrainingSet](https://imgur.com/5YqSFBl)
 
 
 ## Examples
 
 After 50 epochs of training, a network consisting of 12 residual blocks - see [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (2015) - followed by a 3-layer MADE generates samples like the following:
 
-![Examples](https://i.imgur.com/wkLYtx9.png)
+![Example](https://imgur.com/a/yBKrw34)
 
 You are very welcome to extend the code however you like. If you produce anything cool, be sure to let me know!
+
+
+For the second homework there is a PyTorch implementation of RealNVP
+
