@@ -28,4 +28,4 @@ For the second homework there is a PyTorch implementation of RealNVP
 
 
 Here I have used 5000 datapoints sampled from this distribution:
-![TrainingSet](https://imgur.com/a/0Qt3ywp.png)
+![TrainingSet](https://i.imgur.com/a/0Qt3ywp.png)
