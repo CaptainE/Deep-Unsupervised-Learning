@@ -19,7 +19,7 @@ I have used 60,000 quantized 28x28 images from the colored MNIST dataset. Here's
 
 After 50 epochs of training, a network consisting of 12 residual blocks - see [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) (2015) - followed by a 3-layer MADE generates samples like the following:
 
-![Example](https://i.imgur.com/a/yBKrw34.png)
+![Example](https://i.imgur.com/yBKrw34.png)
 
 You are very welcome to extend the code however you like. If you produce anything cool, be sure to let me know!
 
