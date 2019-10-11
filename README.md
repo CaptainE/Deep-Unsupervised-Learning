@@ -32,3 +32,7 @@ Here I have used 5000 datapoints sampled from this distribution:
 
 ![TrainingSet](https://i.imgur.com/stOm8dK.png)
 
+## Example
+After 500 epochs we can sample the following face
+
+![Example](https://imgur.com/ptMJK9L)
