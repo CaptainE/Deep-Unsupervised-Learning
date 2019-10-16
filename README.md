@@ -35,4 +35,4 @@ Here I have used 5000 datapoints sampled from this distribution:
 ## Example
 After 500 epochs we can sample the following face
 
-![Example](https://i.imgur.com/ptMJK9L.png)
+![Example](https://imgur.com/72Kbd2J.png)
