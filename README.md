@@ -25,7 +25,7 @@ After 50 epochs of training, a network consisting of 12 residual blocks - see [D
 You are very welcome to extend the code however you like. If you produce anything cool, be sure to let me know!
 
 # Homework 2
-For the second homework there is a PyTorch implementation of RealNVP
+For the second homework we implement RealNVP coupling layers for modelling flows
 
 ## Training data
 
@@ -38,14 +38,35 @@ After 500 epochs we can sample the following face
 
 ![Example](https://imgur.com/72Kbd2J.png)
 
+with this fancy latent space
+
+![Latent space face](https://imgur.com/e8pkrcA.png)
+
+and density plot
+![density plot](https://imgur.com/2TDhRG4.png)
+
+We also implement RealNVP(https://arxiv.org/abs/1605.08803) to achive these results:
+
+![realnvp](https://imgur.com/jOiG4KP.png)
+
+# Homework 3
+
+We implement a VAE with a gated shortcur connection(https://arxiv.org/pdf/1612.08083) 
+and train it on the SVHN dataset.
+
+The final results look like this:
+![done_training](https://imgur.com/utnCudE.png)
+
+
 # Homework 4
 
-In the 4th homework we implement the Wasserstein GAN()
-and train our GAN for 80 K iterations. 
+In the 4th homework we implement the Wasserstein GAN(https://arxiv.org/abs/1704.00028) and draw inspiration from the architecture used in SN-GAN(https://arxiv.org/abs/1802.05957)
 
-The training curves and mean inception score look like the following:
+
+This we for 80 K iteration and the training curves and mean inception score look like the following:
 ![Training curve](https://imgur.com/HX55Qtl.png)
 ![Inception_Score](https://imgur.com/XLzzanG.png)
 
 And the resulting samples:
+
 ![Samples](https://imgur.com/BApYcle.png)
