@@ -4,6 +4,7 @@ Pytorch implementatiions of the Homeworks in course CS294-158
 Here you can find PyTorch implementations of a Masked Autoencoder for Distribution Estimation, PixelCNN, RealNVP and other architectures
 that are used in course.
 
+# Homework 1
 For the first homework there is a PyTorch implementation of PixelCNN-MADE
 
 That is a auto-regressive model, which mixes ideas from the two papers [Pixel Recurrent Neural Networks](https://arxiv.org/abs/1601.06759) (2016) and [MADE: Masked Autoencoder for Distribution Estimation](https://arxiv.org/abs/1502.03509) (2015) to produce colored 28x28 MNIST digits. Pixel intensities have been quantized to 2 bits (i.e. four intensities for each color channel). The dataset can be downloaded from [here](https://drive.google.com/open?id=1hm077GxmIBP-foHxiPtTxSNy371yowk2).
@@ -23,7 +24,7 @@ After 50 epochs of training, a network consisting of 12 residual blocks - see [D
 
 You are very welcome to extend the code however you like. If you produce anything cool, be sure to let me know!
 
-
+# Homework 2
 For the second homework there is a PyTorch implementation of RealNVP
 
 ## Training data
@@ -36,3 +37,15 @@ Here I have used 5000 datapoints sampled from this distribution:
 After 500 epochs we can sample the following face
 
 ![Example](https://imgur.com/72Kbd2J.png)
+
+# Homework 4
+
+In the 4th homework we implement the Wasserstein GAN()
+and train our GAN for 80 K iterations. 
+
+The training curves and mean inception score look like the following:
+![Training curve](https://imgur.com/HX55Qtl.png)
+![Inception_Score](https://imgur.com/XLzzanG.png)
+
+And the resulting samples:
+![Samples](https://imgur.com/BApYcle.png)
